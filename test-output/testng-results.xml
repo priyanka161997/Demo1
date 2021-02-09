@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[tc7]]>
+    </line>
+    <line>
+      <![CDATA[tc1]]>
+    </line>
+    <line>
+      <![CDATA[tc3]]>
+    </line>
+    <line>
+      <![CDATA[tc6]]>
+    </line>
+    <line>
+      <![CDATA[tc2]]>
+    </line>
+    <line>
+      <![CDATA[tc4]]>
+    </line>
+    <line>
+      <![CDATA[tc5]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+    <groups>
+      <group name="regration">
+        <method signature="Demo8.tc5()[pri:0, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc5" class="Demo.testngDemo.qsp.Demo8"/>
+      </group> <!-- regration -->
+      <group name="functional">
+        <method signature="Demo8.tc2()[pri:0, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc2" class="Demo.testngDemo.qsp.Demo8"/>
+        <method signature="Demo8.tc4()[pri:0, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc4" class="Demo.testngDemo.qsp.Demo8"/>
+        <method signature="Demo8.tc7()[pri:0, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc7" class="Demo.testngDemo.qsp.Demo8"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="Demo8.tc1()[pri:1, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc1" class="Demo.testngDemo.qsp.Demo8"/>
+        <method signature="Demo8.tc3()[pri:2, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc3" class="Demo.testngDemo.qsp.Demo8"/>
+        <method signature="Demo8.tc6()[pri:3, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc6" class="Demo.testngDemo.qsp.Demo8"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="94" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+      <class name="Demo.testngDemo.qsp.Demo8">
+        <test-method status="PASS" signature="tc7()[pri:0, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc7" duration-ms="11" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc7 -->
+        <test-method status="PASS" signature="tc1()[pri:1, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc1" duration-ms="3" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc3()[pri:2, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc3" duration-ms="4" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc6()[pri:3, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc6" duration-ms="1" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc2" duration-ms="1" depends-on-groups="smoke" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc4" duration-ms="1" depends-on-groups="smoke" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:Demo.testngDemo.qsp.Demo8@6e6c3152]" name="tc5" duration-ms="7" depends-on-groups="functional" started-at="2021-02-08T06:26:45 IST" finished-at="2021-02-08T06:26:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+      </class> <!-- Demo.testngDemo.qsp.Demo8 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
